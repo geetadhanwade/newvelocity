@@ -3,7 +3,7 @@ pipeline
   agent any
   stages
   {
-    stage
+    stage{
       step('one')
       {
         sleep 10
@@ -11,3 +11,5 @@ pipeline
   
 }
 }
+}
+
