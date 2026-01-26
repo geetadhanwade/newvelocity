@@ -5,36 +5,19 @@ pipeline {
 		
 		stages {
 		
-			stage ('one') {
+			stage ('main') {
 			
 					steps {
 					
-								echo "hello velocity"
+								echo " This is a hello velocity"
 								
 					}
 			
 			}
 			
-			stage ('two') {
-			
-					steps {
-								echo "thank you"
-					}
-			}
-			stage ('four') {
-			
-					steps {
-								echo "thank you geeta tai"
-					}
-			}
-			
-			stage ('three') {
-			
-					steps {
-								echo "learning jenkins"
-					}
-			}
+		
 		}
+
 
 }
 
