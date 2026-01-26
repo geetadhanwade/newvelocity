@@ -1,1 +1,13 @@
-This is jenkins file new
+pipeline
+{
+  agent any
+  stages
+  {
+    stage
+      step('one')
+      {
+        sleep 10
+      }
+  
+}
+}
