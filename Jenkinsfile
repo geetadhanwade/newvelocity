@@ -21,6 +21,12 @@ pipeline {
 								echo "thank you"
 					}
 			}
+			stage ('four') {
+			
+					steps {
+								echo "thank you geeta tai"
+					}
+			}
 			
 			stage ('three') {
 			
